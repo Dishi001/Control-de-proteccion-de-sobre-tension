@@ -1,1 +1,6 @@
-# Control-de-protecci-n-de-sobre-tensi-n
+# Control de proteccion de sobre tension
+
+## Memoria descriptiva
+
+
+## Maquina de estado 
