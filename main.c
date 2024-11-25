@@ -1,9 +1,13 @@
 #include "mylib.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdint.h>
+#include <stdbool.h>
+#include "LPC845.h"
 
 int main(int argc, char *argv[]) {
-    int V_max = 0, exit = 1, l;
+    int exit = 1, l;
+    float V_max = 0;
 
     while (exit == 1)
     {
@@ -21,7 +25,11 @@ int main(int argc, char *argv[]) {
         switch (l)
         {
         case 1:
-            if (V_max != 0) monitoreo_tension(V_max);
+            if (V_max > 0){
+                ADC();
+                Pin_Rele();
+                monitoreo_tension(V_max);
+            } 
             else printf ("Seleccione una tension maxima antes de comenzar el monitoreo");
             break;
         
