@@ -8,3 +8,11 @@ El sistema comienza en un estado normal de funcionamiento mientras la tensión m
 
 ## Maquina de estado 
 ![Mauqina de estado](https://github.com/Dishi001/Control-de-proteccion-de-sobre-tension/blob/main/Imagenes/Maquina%20de%20estado.png)
+
+
+## Circuito
+
+Conectamos un potenciometro a la entrada del ADC del LPC845BRK y lo ajustamos de tal forma que la tension que reciba el micro no sea superior a 3.3V. Luego el rele que desconectaria el circuito ante un pico de sobretension iria conectado a los pines PIO1_0 y PIO1_1.
+
+https://github.com/user-attachments/assets/d54a08fe-c066-419f-a5f8-f257e2e665c1
+
