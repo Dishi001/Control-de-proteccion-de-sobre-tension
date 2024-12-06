@@ -7,4 +7,4 @@ El sistema comienza en un estado normal de funcionamiento mientras la tensión m
 
 
 ## Maquina de estado 
-![Mauqina de estado](https://github.com/Dishi001/Control-de-protecci-n-de-sobre-tensi-n/blob/main/Maquina%20de%20estado.png)
+![Mauqina de estado]([https://github.com/Dishi001/Control-de-protecci-n-de-sobre-tensi-n/blob/main/Maquina%20de%20estado.png](https://github.com/Dishi001/Control-de-proteccion-de-sobre-tension/blob/c8c44db2c68202b846fd723b639c412b20214756/Imagenes/Maquina%20de%20estado.png))
